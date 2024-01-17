@@ -1,0 +1,27 @@
+body{
+  
+   background:url("back.jpg")  no-repeat center center/cover ;   
+
+
+   
+}
+
+
+.container
+{
+    opacity: 0.95;
+    width: 90%;
+   margin-top: 20px;
+   padding: 50px;
+    background-color: #ffffff;
+    border: 2px;
+    font-size: 1.3rem;
+    
+}
+h3{
+    margin-top: 64px;
+}
+
+#item1 p {
+    text-decoration: none;
+}

@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#navbarNavDropdown ul li a {
+    border-radius: 15px;
+    margin: 2px 2px;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.3rem;
+    color: white;
+    padding: 2px 20px;
+}
+
+#navbarNavDropdown ul li a:hover {
+    color: black;
+    background: white;
+
+
+}
+
+#nav {
+    background-color: rgb(202 29 29);
+}
+
+#navbarNavDropdown ul li ul {
+    background-color: rgb(202 29 29);
+    border: 0px;
+}
+
+/* logo */
+#navlogo {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+
+    background: white;
+
+}
+
+
+ .logo img {
+        padding: 0px 28px;
+        margin: 0px 0px;
+        height: 102px;
+    }
+
+/* home */
+
+#home {
+    margin: 26% 18%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 3px 200px; */
+    height: 225px;
+    width: 67%;
+    background: #ffffffcc;
+}
+
+
+#home::before {
+    position: absolute;
+    content: "";
+    top: 100px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    background: url('/home/index img/pexels-pew-nguyen-244134.jpg') no-repeat center center/cover;
+    opacity: 0.88;
+    z-index: -1;
+}
+
+#home h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /* font-family: 'Signika Negative', sans-serif; */
+font-size: 2.5rem;
+
+
+}
+
+#home p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5rem;
+    /* font-family: 'Signika Negative', sans-serif; */
+  
+
+}
+.fade-in {
+  opacity: 0; /* Start with the section hidden */
+  animation: fadeInAnimation 3s ease-in-out forwards; /* Apply the animation */
+}
+
+/* Define the fade-in animation keyframes */
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Optional: Slide up effect while fading in */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* services section */
+#services {
+    margin: 34px;
+    display: flex;
+
+
+
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+
+}
+
+#services .box {
+
+    border: 2px solid rgb(74, 74, 165);
+    margin: 3px 6px;
+    padding: 34px;
+    border-radius: 26px;
+    background: #ebebeb;
+
+}
+/* about */
+
+#about
+{
+   
+
+
+        opacity: 0; /* Set initial opacity to 0 */
+        transition: opacity 5s ease; /* Add a transition for smooth fading effect */
+      
+
+    margin-top:-20%;    
+
+}
+
+#about p {
+    
+    text-align: center;
+    font-size: 1.48rem;
+    
+
+}
+/* bottom */
+.bottom
+{
+    height: 500px;
+    background: 2px #013b67;
+    display: flex;
+    justify-content: center;
+  
+
+}
+.bottom .item
+{
+    width: 372px;
+  
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 24px;
+}
+.img1{
+    height: 36px;
+    width: 38px; margin: 10px 10px;
+}
+.item a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-size: 27px;
+    text-align: left;
+    overflow: auto;
+}
+#item1{
+    margin: 2px 2px;
+}
+#item3{
+    margin: 32px 2px;
+}
+#item2{
+    margin: 32px 2px;
+    
+}
+#logo1{
+    height: 120px;
+    width: 126px;
+}
+
+footer{
+    background: white;
+}
+/* utility classes */
+
+.h-primary {
+    font-size: 3.8rem;
+
+    font-family: 'Signika Negative', sans-serif;
+  
+
+
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background: rgb(206, 171, 95);
+    margin: 4px 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.h-secondary {
+    font-size: 2.5rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+   /* #logo */
+    .logo img {
+        height: 66px;
+        padding: 1px 0px;
+        margin: 0px 0px;
+    }
+    /* bottom */
+.bottom
+{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+/* Footer */
+#span {
+    text-decoration: solid;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+   
+}

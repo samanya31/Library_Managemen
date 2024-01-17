@@ -1,0 +1,66 @@
+body{
+   background:url("back.jpg") ;
+   background-size: 100% 100%;
+   
+
+
+   
+}
+
+.container
+{
+    opacity: 0.95;
+    width: 90%;
+   margin-top: 20px;
+   padding: 50px;
+    background-color: #ffffff;
+    border: 2px;
+    font-size: 1.3rem;
+    
+    
+}
+h3{
+    margin-top: 64px;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+#navbarNavDropdown ul li a{
+    border-radius: 15px;
+    margin: 2px 2px;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.3rem;
+    color: white;
+    padding: 2px 20px;
+}
+#navbarNavDropdown ul li a:hover{
+    color: black;
+    background:white;
+
+
+}
+#nav{background-color: rgb(202 29 29);
+}
+#navbarNavDropdown ul li ul{
+background-color: rgb(202 29 29);
+border: 0px;
+}
+/* logo */
+#navlogo
+{
+    font-family: 'Roboto', sans-serif;
+}
+.logo
+{
+  
+background: white;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3.6rem;
+}
